@@ -18,7 +18,6 @@ class bigFootX(object):
 
   def __init__(self, wow_dir):
     self.wow_dir = os.path.expanduser(wow_dir)
-    print "here? ", self.wow_dir
 
 
     local_filelist_path = os.path.join(self.wow_dir, "Interface", "filelist.json")
